@@ -44,7 +44,7 @@ class Child extends ProtectedVisibility {
 
     //TODO ProtectedVisibility - Understanding
     //Bonus
-    // The usage of parent methods and the attributes change
+    // Understanding the usage of parent methods and the attributes change
     public void understandingWhyThisHappens() {
         this.understandingWhyThisHappens = "Has zero impact on the parent attribute";
         System.out.println("Before modifying parent values");
@@ -71,5 +71,18 @@ class Child extends ProtectedVisibility {
     protected void overrideLogic() {
         super.overrideLogic();
         System.out.println("Children logic");
+    }
+
+    // Advise, execute the method 1 by 1 and take a look of the code
+    public static void main(String[] args) {
+        //TODO ProtectedVisibility - Understanding - execution
+        //Test
+        Child child = new Child();
+        //Remove comments to execute
+//        child.useMyParentValues();
+//        child.modifyMyParentValues();
+//        child.understandingWhyThisHappens();
+//        child.printOverrideAttribute();
+//        child.overrideLogic();
     }
 }
