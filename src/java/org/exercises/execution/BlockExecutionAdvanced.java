@@ -14,7 +14,7 @@ public class BlockExecutionAdvanced {
     //You can't use some previous its definition
     static {
         //Remove or comment the code
-//        System.out.println(runTimeModification);
+        System.out.println(runTimeModification);
     }
 
     public BlockExecutionAdvanced(){
@@ -64,7 +64,7 @@ public class BlockExecutionAdvanced {
     static {
         //But you can't use the local variables between blocks
         //Remove or comment the code
-//        System.out.println(runTimeModificationLocal);
+        System.out.println(runTimeModificationLocal);
     }
 
     //This is a static block of code, it can exists also as non-static. Its just to help the programmer to group code.
@@ -83,6 +83,7 @@ public class BlockExecutionAdvanced {
         System.out.println(runTimeModification);
     }
 
+    //Execute the main to check the result in console
     public static void main(String[] args) {
         //We can use the static code from above
         //this will be executed after everything
