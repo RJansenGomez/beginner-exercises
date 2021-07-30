@@ -31,9 +31,9 @@ public class Fixnamingversiontwo {
     }
 
     //As you can see this is forbidden, Comment or remove it
-//    public void this-is-wrong() {
-//
-//    }
+    public void this-is-wrong() {
+
+    }
 
     /**
      * Let's stick with the standards, here we are allowing access to a private variable
