@@ -4,20 +4,24 @@ classes, naming, visibility, etc...
   
 ## Basics package
 
-1 Naming => https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
+### Naming 
+https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
 
-2 Visibility => There are 4 types of visibility in Java. public, protected, default package and private. 
-The order of more exposed is in the order defined. Public can be accessed from everywhere. Protected can be accessed from its children. 
+### Visibility
+There are 4 types of visibility in Java. public, protected, default package and private.
+
+The order of more exposed is in the order defined. Public can be accessed from everywhere. Protected can be accessed from its children.
+
 Default package from the classes in the same package and private can only be accessed from its class container. 
 
-3 Block executions =>
+### Block executions 
 There are 3 kind of execution block
     
 - Statics, they are executed the first of everything and sequentially.
 - Class blocks, are executed before the constructor
 - Method blocks, are executed in a method, and it's just to group code. Doesn't imply anything especial.
 
-4 Loops =>
+### Loops
 Kind of loops to tackle:
 
 - Classic for-> for(int i=0;i<lenght;i++)
